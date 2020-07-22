@@ -1,5 +1,5 @@
 // Settings
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:500,500,600,700,900');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,500,600,700,900');
 
 // Color Variables
 $bg-primary: #0f0f0f;
@@ -96,12 +96,21 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
     background-color: $bg-secondary-alt !important;
 }
 
+.role-3paDXR {
+    background-color: $bg-secondary-alt;
+    border: hidden;
+}
+
 // ^ User Pop thingy, I dont have another fancy name for it
 .header-QKLPzZ {
     background-color: $bg-secondary-alt;
 }
 
 .activity-1ythUs {
+    background-color: $bg-secondary-alt;
+}
+
+.tabBarContainer-1s1u-z {
     background-color: $bg-secondary-alt;
 }
 
@@ -127,7 +136,38 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
     background-color: $bg-secondary-alt;
 }
 
+// ^ Hide Notes [Remove if you want to keep notes]
+.textarea-2r0oV8 {
+    display: none;
+}
+
+.bodyTitle-Y0qMQz:nth-child(4) {
+    display: none;
+}
+
+.userInfoSectionHeader-CBvMDh {
+    display: none;
+}
+
+.userInfoSection-2acyCx {
+    height: 0px;
+    position: relative;
+    bottom: 42px;
+}
+
+// Spotify
+.activity-11LB_k {
+    background-color: $bg-secondary-alt;
+}
+
 // ^ Scrollers
 
+// ^ Tooltips
+.tooltip-2QfLtc {
+    border-radius: 5px;
+    background-color: $bg-primary !important;
+}
+
 // Other
+
 @import '_theme_addition.scss';
