@@ -1,0 +1,133 @@
+// Settings
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:500,500,600,700,900');
+
+// Color Variables
+$bg-primary: #0f0f0f;
+$bg-secondary: #131313;
+$bg-secondary-alt: #202020;
+$bg-tertiary: #131313;
+$accent: #bd60da;
+$bg-floating: #161616;
+
+// Theme
+.theme-dark {
+    --header-primary: #ebebeb;
+    --header-secondary: #b9bbbe;
+    --text-normal: #d1d1d1;
+    --text-muted: #5f5f5f;
+    --text-link: #bd60da;
+    --channels-default: #8e9297;
+    --interactive-normal: #b9bbbe;
+    --interactive-hover: #dcddde;
+    --interactive-active: #fff;
+    --interactive-muted: #4f545c;
+    --background-primary: #0f0f0f;
+    --background-secondary: #131313;
+    --background-secondary-alt: #161616;
+    --background-tertiary: #131313;
+    --background-accent: #bd60da;
+    --background-floating: #161616;
+    --background-mobile-primary: #0f0f0f;
+    --background-mobile-secondary: #2f3136;
+    --background-modifier-hover: rgba(22, 22, 22, 0);
+    --background-modifier-active: rgba(36, 36, 36, 0);
+    --background-modifier-selected: rgb(34, 34, 34);
+    --background-modifier-accent: hsla(0,0%,100%,0.06);
+    --background-mentioned: rgba(250,166,26,0.05);
+    --background-mentioned-hover: rgba(250,166,26,0.08);
+    --background-message-hover: rgba(43, 43, 43, 0.07);
+    --scrollbar-thin-thumb: #202020;
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-thumb: #202020;
+    --scrollbar-auto-track: #292929;
+    --scrollbar-auto-scrollbar-color-thumb: #1b1b1b;
+    --scrollbar-auto-scrollbar-color-track: #242424;
+    --elevation-stroke: 0 0 0 1px rgba(32, 32, 32, 0.15);
+    --elevation-low: 0 1px 0 rgba(4,4,5,0.2),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05);
+    --elevation-medium: 0 4px 4px rgba(0,0,0,0.16);
+    --elevation-high: 0 8px 16px rgba(24, 24, 24, 0.24);
+    --logo-primary: rgb(179, 179, 179);
+    --focus-primary: #00b0f4;
+    --guild-header-text-shadow: 0 1px 1px rgba(0,0,0,0.4);
+    --channeltextarea-background: #40444b;
+    --activity-card-background: #202225;
+    --textbox-markdown-syntax: #8e9297;
+    --deprecated-card-bg: rgba(44, 44, 44, 0.6);
+    --deprecated-card-editable-bg: rgba(32,34,37,0.3);
+    --deprecated-store-bg: #36393f;
+    --deprecated-quickswitcher-input-background: #72767d;
+    --deprecated-quickswitcher-input-placeholder: hsla(0,0%,100%,0.3);
+    --deprecated-text-input-bg: rgba(0,0,0,0.1);
+    --deprecated-text-input-border: rgba(0,0,0,0.3);
+    --deprecated-text-input-border-hover: #040405;
+    --deprecated-text-input-border-disabled: #202225;
+    --deprecated-text-input-prefix: #dcddde;
+}
+
+// Font
+a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, dd, del, dfn, div, dl, dt, em, fieldset, form, h1, h2, h3, h4, h5, h6, html, iframe, img, ins, kbd, label, legend, li, object, ol, p, pre, q, s, samp, small, span, strike, strong, table, tbody, td, tfoot, th, thead, tr, tt, ul, var {
+    font-family: 'Source Sans Pro';
+}
+
+// Specific
+.scrollableContainer-2NUZem {
+    border-radius: 50px;
+    background-color: $bg-secondary-alt;
+    
+    position: relative;
+    height: 45px;
+}
+
+// ^ Profile Popout
+.role-2irmRk {
+    background-color: $bg-secondary-alt;
+    border: hidden;
+}
+
+.body-3iLsc4 {
+    background-color: $bg-secondary !important;
+}
+
+.footer-1fjuF6 {
+    background-color: $bg-secondary !important;
+}
+
+.headerTop-3C2Zn0 {
+    background-color: $bg-secondary-alt !important;
+}
+
+// ^ User Pop thingy, I dont have another fancy name for it
+.header-QKLPzZ {
+    background-color: $bg-secondary-alt;
+}
+
+.activity-1ythUs {
+    background-color: $bg-secondary-alt;
+}
+
+// ^ Avatars
+.avatar-1BDn8e, .avatar-VxgULZ {
+    border-radius: 5px !important;
+}
+
+[mask*='url(#svg-mask-avatar-'] {
+    mask: unset !important;
+}
+
+.avatar-1BDn8e {
+    block-size: 40px !important;
+}
+
+// ^ Minor Embed Changes
+.embedFull-2tM8-- {
+    border-radius: 5px;
+}
+
+.grid-1nZz7S {
+    background-color: $bg-secondary-alt;
+}
+
+// ^ Scrollers
+
+// Other
+@import '_theme_addition.scss';

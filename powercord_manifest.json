@@ -1,0 +1,9 @@
+{
+    "name": "DarkenedDiscord",
+    "description": "Discord, but dark, not much else but a few small tweaks",
+    "version": "1.0.0",
+    "author": "Saternity#4838",
+    "theme": "theme.scss",
+    "consent": "false",
+    "license": "unknown"
+}
