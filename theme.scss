@@ -1,5 +1,5 @@
 // Settings
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,500,600,700,900');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,500,600,700,800,900');
 
 // Color Variables
 $bg-primary: #0f0f0f;
@@ -9,13 +9,15 @@ $bg-tertiary: #131313;
 $accent: #bd60da;
 $bg-floating: #161616;
 
+$txt-low: rgb(220, 220, 220);
+
 // Theme
 .theme-dark {
     --header-primary: #ebebeb;
     --header-secondary: #b9bbbe;
     --text-normal: #d1d1d1;
     --text-muted: #5f5f5f;
-    --text-link: #bd60da;
+    --text-link: $accent;
     --channels-default: #8e9297;
     --interactive-normal: #b9bbbe;
     --interactive-hover: #dcddde;
@@ -25,7 +27,7 @@ $bg-floating: #161616;
     --background-secondary: #131313;
     --background-secondary-alt: #161616;
     --background-tertiary: #131313;
-    --background-accent: #bd60da;
+    --background-accent: $accent;
     --background-floating: #161616;
     --background-mobile-primary: #0f0f0f;
     --background-mobile-secondary: #2f3136;
@@ -67,6 +69,21 @@ $bg-floating: #161616;
 // Font
 a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, dd, del, dfn, div, dl, dt, em, fieldset, form, h1, h2, h3, h4, h5, h6, html, iframe, img, ins, kbd, label, legend, li, object, ol, p, pre, q, s, samp, small, span, strike, strong, table, tbody, td, tfoot, th, thead, tr, tt, ul, var {
     font-family: 'Source Sans Pro';
+}
+
+.messageContent-2qWWxC {
+    font-weight: 500 !important;
+    font-size-adjust: .5 !important;
+}
+
+.compact-T3H92H, .header-23xsNx, .username-1A8OIy, .cozy-3raOZG, .header-23xsNx, .username-1A8OIy {
+    font-weight: 600 !important;
+    font-size-adjust: .5 !important;
+}
+
+.roleColor-rz2vM0 {
+    font-weight: 600 !important;
+    font-size-adjust: .5 !important;
 }
 
 // Specific
@@ -127,6 +144,12 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
     block-size: 40px !important;
 }
 
+/*
+.pointerEvents-2zdfdO {
+    
+}
+*/
+
 // ^ Minor Embed Changes
 .embedFull-2tM8-- {
     border-radius: 5px;
@@ -136,6 +159,75 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
     background-color: $bg-secondary-alt;
 }
 
+// Activities
+.activity-11LB_k {
+    background-color: $bg-secondary-alt;
+}
+
+// ^ Users
+.markup-2BOw-j {
+    color: $txt-low;
+}
+
+// ^ Scrollers
+
+// ^ Tooltips
+.tooltip-2QfLtc {
+    border-radius: 5px;
+    background-color: $bg-floating !important;
+}
+
+// ^ Random
+.header-1TKi98 {
+    background-color: $bg-primary;
+}
+
+.content-8biNdB {
+    background-color: $bg-secondary;
+}
+
+// ^ Search Bar
+.resultsGroup-r_nuzN {
+    background-color: $bg-floating;
+}
+
+.option-96V44q:after {
+    display: none !important;
+}
+
+// ^ Public Servers Background
+.scroller-1d5FgU {
+    background-color: $bg-tertiary;
+}
+
+// ^ Friends background
+.scrollerBase-289Jih {
+    background-color: $bg-primary;
+}
+
+.friendsEmpty-1K9B4k {
+    background-color: $bg-primary;
+}
+
+// ^ Text Channel Creator background
+.theme-dark .footer-2gL1pp {
+    background-color: $bg-secondary;
+}
+
+// ^ Server boost color stuff
+.perksModalContentWrapper-2HU6uL {
+    background-color: $bg-primary;
+}
+
+.theme-dark .perk-2WeBWW {
+    background-color: $bg-secondary;
+}
+
+.theme-dark .tierBody-16Chc9 {
+    background-color: $bg-secondary;
+}
+
+// Tweakz
 // ^ Hide Notes [Remove if you want to keep notes]
 .textarea-2r0oV8 {
     display: none;
@@ -155,19 +247,34 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
     bottom: 42px;
 }
 
-// Spotify
-.activity-11LB_k {
-    background-color: $bg-secondary-alt;
+// ^ Hide Pro Tips [remove this if you want to keep these, too]
+.protip-YaFfgO {
+    display: none;
 }
 
-// ^ Scrollers
+.input-2_SIlA {
+    height: 35px;
+}
 
-// ^ Tooltips
-.tooltip-2QfLtc {
-    border-radius: 5px;
+// Minimal Sidebar
+.listItem-2P_4kh {
+    height: 45px;
+}
+
+// Channel 
+
+// ^ Other Tweakz
+
+/*
+.avatar-1BDn8e.clickable-1bVtEA {
+    // block-size: 50px !important;
+}
+*/
+
+.base-gE7OpD.text-1y-e8- {
+    color: rgb(0, 0, 0);
     background-color: $bg-primary !important;
 }
 
 // Other
-
 @import '_theme_addition.scss';
